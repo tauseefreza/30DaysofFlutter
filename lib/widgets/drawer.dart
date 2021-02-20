@@ -58,7 +58,36 @@ class MyDrawer extends StatelessWidget {
             ),
             title: Text("My Wallet",
                 style: TextStyle(color: Colors.deepPurple, fontSize: 18)),
-          )
+          ),
+          Divider(
+            height: 1,
+            color: Colors.deepPurple,
+            thickness: 1.0,
+          ),
+          ListTile(
+            leading: Icon(
+              CupertinoIcons.bell,
+              color: Colors.deepPurple,
+            ),
+            title: Text("Notifications",
+                style: TextStyle(color: Colors.deepPurple, fontSize: 18)),
+          ),
+          ListTile(
+            leading: Icon(
+              CupertinoIcons.question_circle,
+              color: Colors.deepPurple,
+            ),
+            title: Text("Help",
+                style: TextStyle(color: Colors.deepPurple, fontSize: 18)),
+          ),
+          ListTile(
+            leading: Icon(
+              CupertinoIcons.power,
+              color: Colors.deepPurple,
+            ),
+            title: Text("Logout",
+                style: TextStyle(color: Colors.deepPurple, fontSize: 18)),
+          ),
         ],
       ),
     );
