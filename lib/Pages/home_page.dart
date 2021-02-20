@@ -4,8 +4,8 @@ import 'package:flutter_app_1/widgets/drawer.dart';
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final int days = 30;
-    final String name = "Rehzaan";
+    // final int days = 30;
+    // final String name = "Rehzaan";
 
     return Scaffold(
       appBar: AppBar(
@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Container(
           child: Text(
-            "Welcome to $days days of Flutter by $name",
+            "Welcome to My App",
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.bold,
