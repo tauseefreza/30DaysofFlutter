@@ -6,15 +6,16 @@ import 'package:flutter_app_1/widgets/item_widget.dart';
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final dummyList = List.generate(20, (index) => CatalogModel.items[0]);
     return Scaffold(
       appBar: AppBar(
         title: Text("Koxa Costumes"),
       ),
       body: ListView.builder(
-        itemCount: CatalogModel.items.length,
+        itemCount: dummyList.length,
         itemBuilder: (context, index) {
           return ItemWidget(
-            item: CatalogModel.items[index],
+            item: dummyList[index],
           );
         },
       ),
