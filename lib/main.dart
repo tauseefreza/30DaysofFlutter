@@ -4,6 +4,7 @@ import 'package:flutter_app_1/utils/routes.dart';
 import 'package:flutter_app_1/widgets/themes.dart';
 import 'Pages/home_page.dart';
 
+// day11 we learnt about context and constraints
 void main() {
   runApp(MyApp());
 }
