@@ -4,7 +4,6 @@ import 'package:flutter_app_1/utils/routes.dart';
 import 'package:flutter_app_1/widgets/themes.dart';
 import 'Pages/home_page.dart';
 
-// day11 we learnt about context and constraints
 void main() {
   runApp(MyApp());
 }
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: MyTheme.lightTheme(context),
       darkTheme: MyTheme.darkTheme(context),
       debugShowCheckedModeBanner: false,
-      initialRoute: MyRoutes.loginRoute,
+      initialRoute: MyRoutes.homeRoute,
       routes: {
         "/": (context) => LoginPage(),
         MyRoutes.homeRoute: (context) => HomePage(),

@@ -1,5 +1,18 @@
+class CatalogModel {
+  static final items = [
+    Item(
+        id: 001,
+        name: "iPhone 12 Pro",
+        desc: "Apple iPhone 12th Generation",
+        price: 125000,
+        color: "#33505a",
+        image:
+            "https://cdn.vox-cdn.com/thumbor/LVma7J9aEYF-IvbIKFaCxQ-RkdE=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/67683963/vpavic_4243_20201018_0121.0.0.jpg")
+  ];
+}
+
 class Item {
-  final String id;
+  final int id;
   final String name;
   final String desc;
   final num price;
@@ -8,14 +21,3 @@ class Item {
 
   Item({this.id, this.name, this.desc, this.price, this.color, this.image});
 }
-
-final products = [
-  Item(
-      id: "001",
-      name: "iPhone 12 Pro",
-      desc: "Apple iPhone 12th Generation",
-      price: 125000,
-      color: "#33505a",
-      image:
-          "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgadgets.ndtv.com%2Fiphone-12-pro-price-in-india-97687&psig=AOvVaw0O9JcqhdSUkKw7uTdG-g86&ust=1613925339045000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjF0tLy-O4CFQAAAAAdAAAAABAF")
-];
